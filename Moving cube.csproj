@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <RootNamespace>Moving_cube</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="381724557_275091152066697_746550558999869489_n.png" />
+    <None Remove="381786835_644008634522543_4662059073910839257_n.png" />
+    <None Remove="384477155_739277348009455_913774994122415745_n.png" />
+    <None Remove="384480196_854654849216146_3684124435462922118_n.png" />
+    <None Remove="galaxy.jpg" />
+    <None Remove="image\bossbu.png" />
+    <None Remove="image\bossbullet.png" />
+    <None Remove="image\fireball.png" />
+    <None Remove="image\meteor.jpg" />
+    <None Remove="image\poop.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="381724557_275091152066697_746550558999869489_n.png" />
+    <Resource Include="381786835_644008634522543_4662059073910839257_n.png" />
+    <Resource Include="384477155_739277348009455_913774994122415745_n.png" />
+    <Resource Include="384480196_854654849216146_3684124435462922118_n.png" />
+    <Resource Include="galaxy.jpg" />
+    <Resource Include="image\bossbu.png" />
+    <Resource Include="image\bossbullet.png" />
+    <Resource Include="image\fireball.png" />
+    <Resource Include="image\meteor.jpg" />
+    <Resource Include="image\poop.png" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,38 @@
+﻿<Window x:Class="Moving_cube.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Moving_cube"
+        mc:Ignorable="d"
+       Title="MainWindow" Height="450" Width="800">
+
+    <Canvas x:Name="myCanvas" KeyUp="KeyIsUp" KeyDown="KeyIsDown" Focusable="True">
+        <Canvas.Background>
+            <ImageBrush ImageSource="/galaxy.jpg"/>
+        </Canvas.Background>
+        <Rectangle   x:Name="boss" Height="70" Width="70" Canvas.Left="365" Canvas.Top="71">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="/384480196_854654849216146_3684124435462922118_n.png"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle Name="player" Height="50"   Width="50" Canvas.Left="375" Canvas.Top="281" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="/381724557_275091152066697_746550558999869489_n.png"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <ProgressBar  x:Name="pHealth"  Height="28" Canvas.Left="43" Canvas.Top="22" Width="184" Value="100" Foreground="#FF31FC00">
+            <ProgressBar.Background>
+                <ImageBrush ImageSource="/384477155_739277348009455_913774994122415745_n.png"/>
+            </ProgressBar.Background>
+        </ProgressBar>
+        <ProgressBar x:Name="bosshealth"  Height="32" Canvas.Left="118" Canvas.Top="370" Width="564" Value="100" Foreground="#FF2B062D">
+            <ProgressBar.Background>
+                <ImageBrush ImageSource="/381786835_644008634522543_4662059073910839257_n.png"/>
+            </ProgressBar.Background>
+        </ProgressBar>
+
+    </Canvas>
+
+
+</Window>
